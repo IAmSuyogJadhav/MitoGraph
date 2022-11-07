@@ -1,6 +1,6 @@
 # Instructions for Linux
 
-Tested on Ubuntu 22.04 with libVTK7.
+Tested on Ubuntu 22.04 with libVTK7, with help from a [deleted pull request](https://github.com/vianamp/MitoGraph/pull/14/commits/15460c272b1728f5b7817b7e08dbd176743e9300#diff-1e7de1ae2d059d21e1dd75d5812d5a34b0222cef273b7c3a2af62eb747f9d20a) to the original repo.
 
 
 1. Install `libvtk7`.
@@ -8,7 +8,7 @@ Tested on Ubuntu 22.04 with libVTK7.
 sudo apt-get install libvtk7-dev
 ```
 
-2. Now, you can either download one of the already built binaries from the releases tab OR
+2. Now, you can either download the already built binaries from the [releases](https://github.com/IAmSuyogJadhav/MitoGraph/releases) tab OR
 
 build it yourself:
 
