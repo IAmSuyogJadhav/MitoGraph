@@ -1,3 +1,30 @@
+# Instructions for Linux
+
+Tested on Ubuntu 22.04 with libVTK7.
+
+
+1. Install `libvtk7`.
+```bash
+sudo apt-get install libvtk7-dev
+```
+
+2. Now, you can either download one of the already built binaries from the releases tab OR
+
+build it yourself:
+
+```bash
+git clone https://github.com/IAmSuyogJadhav/MitoGraph
+cd MitoGraph
+mkdir build && cd build
+cmake ..
+make
+```
+
+3. Use the MitoGraph binary as per the instructions in the original README file.
+
+
+## Original description continues below
+
 <p align="center">
   <img src="doc/mitograph.png" width="auto" height="380" title="MoCo Logo">
 </p>
